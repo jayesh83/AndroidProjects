@@ -9,4 +9,4 @@ Have a look! Happy learning...
 
 
 
-If you found it helpful then consider starrting( click start icon ) this repo. 
+If you found it helpful then consider starring( click start icon ) this repo. 
