@@ -1,6 +1,8 @@
 package com.japps.uilearningfinale;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
@@ -43,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
 
         // setup bottom layout
         NavigationUI.setupWithNavController(bottomNavigationView, controller);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.music_library_toolbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override

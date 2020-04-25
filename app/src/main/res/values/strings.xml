@@ -12,4 +12,9 @@
     <string name="title_settings">Settings</string>
     <string name="titile_music_library">Music Library</string>
     <string name="title_listen_now">Listen now</string>
+    <string name="default_fallback">Default Fallback</string>
+    <string name="first_in_music_library">First in Music Library</string>
+    <string name="second_in_music_library">Second in Music Library</string>
+    <string name="fourth_in_music_library">Fourth in Music Library</string>
+    <string name="third_in_music_library">Third in Music Library</string>
 </resources>
