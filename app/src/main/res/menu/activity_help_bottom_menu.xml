@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/fragmentCustomerCareCorner"
+            android:enabled="true"
+            android:icon="@drawable/ic_chat_24px"
+            android:title="@string/care_corner" />
+
+        <item
+            android:id="@+id/fragmentFaqs"
+            android:icon="@drawable/ic_faq_24px"
+            android:title="@string/faqs" />
+
+    </group>
+
+</menu>

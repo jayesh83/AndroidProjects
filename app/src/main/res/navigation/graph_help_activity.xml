@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_help_activity"
+    app:startDestination="@id/fragmentCustomerCareCorner"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/fragmentCustomerCareCorner"
+        android:name="com.japps.uilearningfinale.FirstInHelpActivity"
+        android:label="fragment_first_in_help_activity"
+        tools:layout="@layout/fragment_first_in_help_activity" />
+    <fragment
+        android:id="@+id/fragmentFaqs"
+        android:name="com.japps.uilearningfinale.SecondInHelpActivity"
+        android:label="fragment_second_in_help_activity"
+        tools:layout="@layout/fragment_second_in_help_activity" />
+
+</navigation>

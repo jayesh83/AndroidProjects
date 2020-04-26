@@ -17,4 +17,12 @@
     <string name="second_in_music_library">Second in Music Library</string>
     <string name="fourth_in_music_library">Fourth in Music Library</string>
     <string name="third_in_music_library">Third in Music Library</string>
+    <string name="activity_n_help">Activity \n Help</string>
+    <string name="first_in_help_activity">Welcome to \n\n customer \n\n care corner</string>
+    <string name="second_in_help_activity">Welcome to FAQs</string>
+    <string name="care_corner">Care corner</string>
+    <string name="faqs">FAQs</string>
+    <string name="toolbar_search_desc">You can search for the music using you are looking for just by typing it\'s name</string>
+    <string name="toolbar_help_activity_search_desc">You can search for the help being provided using you are looking for just by typing it\'s name</string>
+    <string name="search">Search</string>
 </resources>

@@ -11,19 +11,29 @@
         android:name="com.japps.uilearningfinale.ListenNowFragment"
         android:label="Listen Now"
         tools:layout="@layout/fragment_listen_now" />
+
     <fragment
         android:id="@+id/musicLibraryFragment"
         android:name="com.japps.uilearningfinale.MusicLibraryFragment"
         android:label="Music Library"
         tools:layout="@layout/fragment_music_library" />
+
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.japps.uilearningfinale.SettingsFragment"
         android:label="Settings"
         tools:layout="@layout/fragment_settings" />
-    <fragment
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/helpFragment"-->
+    <!--        android:name="com.japps.uilearningfinale.HelpFeedbackFragment"-->
+    <!--        android:label="Help and Feedback"-->
+    <!--        tools:layout="@layout/fragment_help_feedback" />-->
+
+    <activity
         android:id="@+id/helpFragment"
-        android:name="com.japps.uilearningfinale.HelpFeedbackFragment"
-        android:label="Help and Feedback"
-        tools:layout="@layout/fragment_help_feedback" />
+        android:name="com.japps.uilearningfinale.HelpActivity"
+        android:label="@string/title_help_and_feedback"
+        tools:layout="@layout/activity_help" />
+
 </navigation>
