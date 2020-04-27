@@ -7,7 +7,8 @@
             android:id="@+id/fragmentCustomerCareCorner"
             android:enabled="true"
             android:icon="@drawable/ic_chat_24px"
-            android:title="@string/care_corner" />
+            android:title="@string/customer_care_corner"
+            android:titleCondensed="@string/care_corner" />
 
         <item
             android:id="@+id/fragmentFaqs"

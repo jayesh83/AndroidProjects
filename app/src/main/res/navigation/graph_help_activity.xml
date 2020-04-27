@@ -9,12 +9,13 @@
     <fragment
         android:id="@+id/fragmentCustomerCareCorner"
         android:name="com.japps.uilearningfinale.FirstInHelpActivity"
-        android:label="fragment_first_in_help_activity"
+        android:label="Customer Care Corner"
         tools:layout="@layout/fragment_first_in_help_activity" />
+
     <fragment
         android:id="@+id/fragmentFaqs"
         android:name="com.japps.uilearningfinale.SecondInHelpActivity"
-        android:label="fragment_second_in_help_activity"
+        android:label="FAQs"
         tools:layout="@layout/fragment_second_in_help_activity" />
 
 </navigation>

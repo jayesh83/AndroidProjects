@@ -21,8 +21,11 @@
     <string name="first_in_help_activity">Welcome to \n\n customer \n\n care corner</string>
     <string name="second_in_help_activity">Welcome to FAQs</string>
     <string name="care_corner">Care corner</string>
+    <string name="customer_care_corner">Customer care corner</string>
     <string name="faqs">FAQs</string>
     <string name="toolbar_search_desc">You can search for the music using you are looking for just by typing it\'s name</string>
     <string name="toolbar_help_activity_search_desc">You can search for the help being provided using you are looking for just by typing it\'s name</string>
     <string name="search">Search</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="take_picture_of_issue">Take picture of issue</string>
 </resources>

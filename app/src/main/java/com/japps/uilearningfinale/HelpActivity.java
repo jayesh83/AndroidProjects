@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.navigation.ActivityNavigator;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -25,6 +26,9 @@ public class HelpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
+        Bundle bundle = getIntent().getExtras();
+        if (bundle != null)
+            Log.e("Bundle", "empty - " + bundle.isEmpty() + "\n Bundle : " + bundle.toString());
         // get hold of controller for Host Navigation Fragment
         controller = Navigation.findNavController(this, R.id.activity_help_mainNavHost);
         // get reference of views
@@ -49,5 +53,11 @@ public class HelpActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         Log.e("Menu clicked: ", "" + item.getTitle());
         return NavigationUI.onNavDestinationSelected(item, controller) || super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        ActivityNavigator.applyPopAnimationsToPendingTransition(HelpActivity.this);
     }
 }
